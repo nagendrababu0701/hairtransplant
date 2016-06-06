@@ -435,9 +435,9 @@ var retina = window.devicePixelRatio > 1 ? true : false;if( retina ){var retinaE
       tpj.noConflict();
       var revapi1;
       tpj(document).ready(function() {
-        if(tpj("#rev_slider_1_2").revolution == undefined){
-          revslider_showDoubleJqueryError("#rev_slider_1_2");
-        }else{
+        //if(tpj("#rev_slider_1_2").revolution == undefined){
+          //revslider_showDoubleJqueryError("#rev_slider_1_2");
+        //}else{
           revapi1 = tpj("#rev_slider_1_2").show().revolution({
             sliderType:"standard",
             //jsFileLocation:"http://hairtransplantclinic.in/wp-content/plugins/revslider/public/assets/js/",
@@ -500,7 +500,7 @@ var retina = window.devicePixelRatio > 1 ? true : false;if( retina ){var retinaE
               disableFocusListener:false,
             }
           });
-        }
+        //}
       }); /*ready*/
     </script>
     <script>
@@ -789,7 +789,7 @@ lsjQuery("#layerslider_1").layerSlider({twoWaySlideshow: true, skin: 'carousel',
         }else{
           revapi2 = tpj("#rev_slider_2_4").show().revolution({
             sliderType:"standard",
-            //jsFileLocation:"http://hairtransplantclinic.in/wp-content/plugins/revslider/public/assets/js/",
+            jsFileLocation:"http://hairtransplantclinic.in/wp-content/plugins/revslider/public/assets/js/",
             sliderLayout:"auto",
             dottedOverlay:"none",
             delay:2000,
